@@ -267,14 +267,11 @@ class GA:
 
             child = GA.crossOver(Parent1, Parent2)
 
-            # print("loop_in")
-
             while newPop.routeExists(child) is True:
                 Parent1 = GA.tournamentSelection(pop)
                 Parent2 = GA.tournamentSelection(pop)
                 child = GA.crossOver(Parent1, Parent2)
-            # print("loop_out")
-
+            
             newPop.saveRoute(i, child)
 
         # for i in range(elitismOffSet,newPop.populationSize()):
