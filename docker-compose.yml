@@ -1,0 +1,27 @@
+# Optional: PostgreSQL + PostGIS (and the backend) in containers.
+#   docker compose up db            -> just the database; run the backend locally with
+#                                      DATABASE_URL=postgresql+psycopg2://resq:resq@localhost:5432/resqroute
+#   docker compose up --build       -> database + backend on http://localhost:8000
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_USER: resq
+      POSTGRES_PASSWORD: resq
+      POSTGRES_DB: resqroute
+    ports: ["5432:5432"]
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U resq -d resqroute"]
+      interval: 5s
+      retries: 10
+  backend:
+    build: { context: ., dockerfile: backend/Dockerfile }
+    environment:
+      DATABASE_URL: postgresql+psycopg2://resq:resq@db:5432/resqroute
+      SIM_ENGINE: builtin
+    ports: ["8000:8000"]
+    depends_on:
+      db: { condition: service_healthy }
+volumes:
+  pgdata:

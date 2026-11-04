@@ -1,0 +1,13 @@
+{
+ "bias": 2.3249679651503836,
+ "w": {
+  "cls_logit": 0.7307928177163959,
+  "text": 1.24886257106385,
+  "beacon": 0.9781351657176894,
+  "livery": 0.5153198877972107,
+  "model": 1.5
+ },
+ "threshold": 0.91,
+ "fitted_on": "838 validation crops (138 ambulances)",
+ "ocr": true
+}

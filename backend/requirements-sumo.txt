@@ -1,0 +1,4 @@
+# Optional: Eclipse SUMO + TraCI (SIM_ENGINE=sumo). Bundles the SUMO binaries.
+eclipse-sumo>=1.20
+traci>=1.20
+sumolib>=1.20

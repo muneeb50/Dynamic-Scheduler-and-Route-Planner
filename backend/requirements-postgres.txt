@@ -1,0 +1,2 @@
+# Optional: PostgreSQL + PostGIS (set DATABASE_URL)
+psycopg2-binary>=2.9
