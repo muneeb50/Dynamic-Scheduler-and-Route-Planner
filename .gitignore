@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+backend/*.db
+.pytest_cache/
+
+# Node / dashboard
+admin_dashboard/node_modules/
+admin_dashboard/dist/
+admin_dashboard/*.tsbuildinfo
+
+# Flutter
+mobile_app/.dart_tool/
+mobile_app/build/
+mobile_app/.flutter-plugins*
+mobile_app/pubspec.lock
+
+# Data and outputs (regenerate locally)
+data/osm/
+data/network.json
+simulation/network/*.xml
+simulation/network/*.sumocfg
+results/*
+!results/.gitkeep
+
+# Secrets
+.env
+
+# Video analytics
+data/videos/uploads/
+results/video/
+computer_vision/models/*.pt
+!computer_vision/models/yolo11n.pt
+runs/
+
+data/field_junctions.json
+data/maps/

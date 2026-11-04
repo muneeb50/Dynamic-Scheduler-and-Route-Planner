@@ -1,0 +1,1743 @@
+{
+ "name": "ResQRoute demo grid (Nerul\u2013Seawoods area)",
+ "source": "demo",
+ "description": "Stylised 5x5 grid placed over Nerul\u2013Seawoods for offline use. Not real road geometry; run the OSM import for real roads.",
+ "left_hand_traffic": true,
+ "nodes": [
+  {
+   "id": "n00",
+   "lat": 19.018,
+   "lon": 73.01,
+   "signal": false,
+   "name": "Junction 0-0"
+  },
+  {
+   "id": "n01",
+   "lat": 19.018,
+   "lon": 73.017,
+   "signal": false,
+   "name": "Junction 0-1"
+  },
+  {
+   "id": "n02",
+   "lat": 19.018,
+   "lon": 73.024,
+   "signal": false,
+   "name": "Junction 0-2"
+  },
+  {
+   "id": "n03",
+   "lat": 19.018,
+   "lon": 73.031,
+   "signal": false,
+   "name": "Junction 0-3"
+  },
+  {
+   "id": "n04",
+   "lat": 19.018,
+   "lon": 73.038,
+   "signal": false,
+   "name": "Junction 0-4"
+  },
+  {
+   "id": "n10",
+   "lat": 19.024,
+   "lon": 73.01,
+   "signal": false,
+   "name": "Junction 1-0"
+  },
+  {
+   "id": "n11",
+   "lat": 19.024,
+   "lon": 73.017,
+   "signal": true,
+   "name": "Junction 1-1"
+  },
+  {
+   "id": "n12",
+   "lat": 19.024,
+   "lon": 73.024,
+   "signal": true,
+   "name": "Junction 1-2"
+  },
+  {
+   "id": "n13",
+   "lat": 19.024,
+   "lon": 73.031,
+   "signal": true,
+   "name": "Junction 1-3"
+  },
+  {
+   "id": "n14",
+   "lat": 19.024,
+   "lon": 73.038,
+   "signal": false,
+   "name": "Junction 1-4"
+  },
+  {
+   "id": "n20",
+   "lat": 19.03,
+   "lon": 73.01,
+   "signal": false,
+   "name": "Junction 2-0"
+  },
+  {
+   "id": "n21",
+   "lat": 19.03,
+   "lon": 73.017,
+   "signal": true,
+   "name": "Junction 2-1"
+  },
+  {
+   "id": "n22",
+   "lat": 19.03,
+   "lon": 73.024,
+   "signal": true,
+   "name": "Junction 2-2"
+  },
+  {
+   "id": "n23",
+   "lat": 19.03,
+   "lon": 73.031,
+   "signal": true,
+   "name": "Junction 2-3"
+  },
+  {
+   "id": "n24",
+   "lat": 19.03,
+   "lon": 73.038,
+   "signal": false,
+   "name": "Junction 2-4"
+  },
+  {
+   "id": "n30",
+   "lat": 19.036,
+   "lon": 73.01,
+   "signal": false,
+   "name": "Junction 3-0"
+  },
+  {
+   "id": "n31",
+   "lat": 19.036,
+   "lon": 73.017,
+   "signal": true,
+   "name": "Junction 3-1"
+  },
+  {
+   "id": "n32",
+   "lat": 19.036,
+   "lon": 73.024,
+   "signal": true,
+   "name": "Junction 3-2"
+  },
+  {
+   "id": "n33",
+   "lat": 19.036,
+   "lon": 73.031,
+   "signal": true,
+   "name": "Junction 3-3"
+  },
+  {
+   "id": "n34",
+   "lat": 19.036,
+   "lon": 73.038,
+   "signal": false,
+   "name": "Junction 3-4"
+  },
+  {
+   "id": "n40",
+   "lat": 19.042,
+   "lon": 73.01,
+   "signal": false,
+   "name": "Junction 4-0"
+  },
+  {
+   "id": "n41",
+   "lat": 19.042,
+   "lon": 73.017,
+   "signal": false,
+   "name": "Junction 4-1"
+  },
+  {
+   "id": "n42",
+   "lat": 19.042,
+   "lon": 73.024,
+   "signal": false,
+   "name": "Junction 4-2"
+  },
+  {
+   "id": "n43",
+   "lat": 19.042,
+   "lon": 73.031,
+   "signal": false,
+   "name": "Junction 4-3"
+  },
+  {
+   "id": "n44",
+   "lat": 19.042,
+   "lon": 73.038,
+   "signal": false,
+   "name": "Junction 4-4"
+  }
+ ],
+ "edges": [
+  {
+   "id": "n00_n01",
+   "from": "n00",
+   "to": "n01",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 1",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.018,
+     73.01
+    ],
+    [
+     19.018,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n01_n00",
+   "from": "n01",
+   "to": "n00",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 1",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.018,
+     73.017
+    ],
+    [
+     19.018,
+     73.01
+    ]
+   ]
+  },
+  {
+   "id": "n01_n02",
+   "from": "n01",
+   "to": "n02",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 1",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.018,
+     73.017
+    ],
+    [
+     19.018,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n02_n01",
+   "from": "n02",
+   "to": "n01",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 1",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.018,
+     73.024
+    ],
+    [
+     19.018,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n02_n03",
+   "from": "n02",
+   "to": "n03",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 1",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.018,
+     73.024
+    ],
+    [
+     19.018,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n03_n02",
+   "from": "n03",
+   "to": "n02",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 1",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.018,
+     73.031
+    ],
+    [
+     19.018,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n03_n04",
+   "from": "n03",
+   "to": "n04",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 1",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.018,
+     73.031
+    ],
+    [
+     19.018,
+     73.038
+    ]
+   ]
+  },
+  {
+   "id": "n04_n03",
+   "from": "n04",
+   "to": "n03",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 1",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.018,
+     73.038
+    ],
+    [
+     19.018,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n10_n11",
+   "from": "n10",
+   "to": "n11",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 2",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.024,
+     73.01
+    ],
+    [
+     19.024,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n11_n10",
+   "from": "n11",
+   "to": "n10",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 2",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.024,
+     73.017
+    ],
+    [
+     19.024,
+     73.01
+    ]
+   ]
+  },
+  {
+   "id": "n11_n12",
+   "from": "n11",
+   "to": "n12",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 2",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.024,
+     73.017
+    ],
+    [
+     19.024,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n12_n11",
+   "from": "n12",
+   "to": "n11",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 2",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.024,
+     73.024
+    ],
+    [
+     19.024,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n12_n13",
+   "from": "n12",
+   "to": "n13",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 2",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.024,
+     73.024
+    ],
+    [
+     19.024,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n13_n12",
+   "from": "n13",
+   "to": "n12",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 2",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.024,
+     73.031
+    ],
+    [
+     19.024,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n13_n14",
+   "from": "n13",
+   "to": "n14",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 2",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.024,
+     73.031
+    ],
+    [
+     19.024,
+     73.038
+    ]
+   ]
+  },
+  {
+   "id": "n14_n13",
+   "from": "n14",
+   "to": "n13",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 2",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.024,
+     73.038
+    ],
+    [
+     19.024,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n20_n21",
+   "from": "n20",
+   "to": "n21",
+   "lanes": 2,
+   "speed": 13.89,
+   "name": "Demo Arterial East-West",
+   "road_class": "primary",
+   "geometry": [
+    [
+     19.03,
+     73.01
+    ],
+    [
+     19.03,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n21_n20",
+   "from": "n21",
+   "to": "n20",
+   "lanes": 2,
+   "speed": 13.89,
+   "name": "Demo Arterial East-West",
+   "road_class": "primary",
+   "geometry": [
+    [
+     19.03,
+     73.017
+    ],
+    [
+     19.03,
+     73.01
+    ]
+   ]
+  },
+  {
+   "id": "n21_n22",
+   "from": "n21",
+   "to": "n22",
+   "lanes": 2,
+   "speed": 13.89,
+   "name": "Demo Arterial East-West",
+   "road_class": "primary",
+   "geometry": [
+    [
+     19.03,
+     73.017
+    ],
+    [
+     19.03,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n22_n21",
+   "from": "n22",
+   "to": "n21",
+   "lanes": 2,
+   "speed": 13.89,
+   "name": "Demo Arterial East-West",
+   "road_class": "primary",
+   "geometry": [
+    [
+     19.03,
+     73.024
+    ],
+    [
+     19.03,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n22_n23",
+   "from": "n22",
+   "to": "n23",
+   "lanes": 2,
+   "speed": 13.89,
+   "name": "Demo Arterial East-West",
+   "road_class": "primary",
+   "geometry": [
+    [
+     19.03,
+     73.024
+    ],
+    [
+     19.03,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n23_n22",
+   "from": "n23",
+   "to": "n22",
+   "lanes": 2,
+   "speed": 13.89,
+   "name": "Demo Arterial East-West",
+   "road_class": "primary",
+   "geometry": [
+    [
+     19.03,
+     73.031
+    ],
+    [
+     19.03,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n23_n24",
+   "from": "n23",
+   "to": "n24",
+   "lanes": 2,
+   "speed": 13.89,
+   "name": "Demo Arterial East-West",
+   "road_class": "primary",
+   "geometry": [
+    [
+     19.03,
+     73.031
+    ],
+    [
+     19.03,
+     73.038
+    ]
+   ]
+  },
+  {
+   "id": "n24_n23",
+   "from": "n24",
+   "to": "n23",
+   "lanes": 2,
+   "speed": 13.89,
+   "name": "Demo Arterial East-West",
+   "road_class": "primary",
+   "geometry": [
+    [
+     19.03,
+     73.038
+    ],
+    [
+     19.03,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n30_n31",
+   "from": "n30",
+   "to": "n31",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 4",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.036,
+     73.01
+    ],
+    [
+     19.036,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n31_n30",
+   "from": "n31",
+   "to": "n30",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 4",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.036,
+     73.017
+    ],
+    [
+     19.036,
+     73.01
+    ]
+   ]
+  },
+  {
+   "id": "n31_n32",
+   "from": "n31",
+   "to": "n32",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 4",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.036,
+     73.017
+    ],
+    [
+     19.036,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n32_n31",
+   "from": "n32",
+   "to": "n31",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 4",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.036,
+     73.024
+    ],
+    [
+     19.036,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n32_n33",
+   "from": "n32",
+   "to": "n33",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 4",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.036,
+     73.024
+    ],
+    [
+     19.036,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n33_n32",
+   "from": "n33",
+   "to": "n32",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 4",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.036,
+     73.031
+    ],
+    [
+     19.036,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n33_n34",
+   "from": "n33",
+   "to": "n34",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 4",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.036,
+     73.031
+    ],
+    [
+     19.036,
+     73.038
+    ]
+   ]
+  },
+  {
+   "id": "n34_n33",
+   "from": "n34",
+   "to": "n33",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 4",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.036,
+     73.038
+    ],
+    [
+     19.036,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n40_n41",
+   "from": "n40",
+   "to": "n41",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 5",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.042,
+     73.01
+    ],
+    [
+     19.042,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n41_n40",
+   "from": "n41",
+   "to": "n40",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 5",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.042,
+     73.017
+    ],
+    [
+     19.042,
+     73.01
+    ]
+   ]
+  },
+  {
+   "id": "n41_n42",
+   "from": "n41",
+   "to": "n42",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 5",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.042,
+     73.017
+    ],
+    [
+     19.042,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n42_n41",
+   "from": "n42",
+   "to": "n41",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 5",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.042,
+     73.024
+    ],
+    [
+     19.042,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n42_n43",
+   "from": "n42",
+   "to": "n43",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 5",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.042,
+     73.024
+    ],
+    [
+     19.042,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n43_n42",
+   "from": "n43",
+   "to": "n42",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 5",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.042,
+     73.031
+    ],
+    [
+     19.042,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n43_n44",
+   "from": "n43",
+   "to": "n44",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 5",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.042,
+     73.031
+    ],
+    [
+     19.042,
+     73.038
+    ]
+   ]
+  },
+  {
+   "id": "n44_n43",
+   "from": "n44",
+   "to": "n43",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Sector Road 5",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.042,
+     73.038
+    ],
+    [
+     19.042,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n00_n10",
+   "from": "n00",
+   "to": "n10",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road A",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.018,
+     73.01
+    ],
+    [
+     19.024,
+     73.01
+    ]
+   ]
+  },
+  {
+   "id": "n10_n00",
+   "from": "n10",
+   "to": "n00",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road A",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.024,
+     73.01
+    ],
+    [
+     19.018,
+     73.01
+    ]
+   ]
+  },
+  {
+   "id": "n10_n20",
+   "from": "n10",
+   "to": "n20",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road A",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.024,
+     73.01
+    ],
+    [
+     19.03,
+     73.01
+    ]
+   ]
+  },
+  {
+   "id": "n20_n10",
+   "from": "n20",
+   "to": "n10",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road A",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.03,
+     73.01
+    ],
+    [
+     19.024,
+     73.01
+    ]
+   ]
+  },
+  {
+   "id": "n20_n30",
+   "from": "n20",
+   "to": "n30",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road A",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.03,
+     73.01
+    ],
+    [
+     19.036,
+     73.01
+    ]
+   ]
+  },
+  {
+   "id": "n30_n20",
+   "from": "n30",
+   "to": "n20",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road A",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.036,
+     73.01
+    ],
+    [
+     19.03,
+     73.01
+    ]
+   ]
+  },
+  {
+   "id": "n30_n40",
+   "from": "n30",
+   "to": "n40",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road A",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.036,
+     73.01
+    ],
+    [
+     19.042,
+     73.01
+    ]
+   ]
+  },
+  {
+   "id": "n40_n30",
+   "from": "n40",
+   "to": "n30",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road A",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.042,
+     73.01
+    ],
+    [
+     19.036,
+     73.01
+    ]
+   ]
+  },
+  {
+   "id": "n01_n11",
+   "from": "n01",
+   "to": "n11",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road B",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.018,
+     73.017
+    ],
+    [
+     19.024,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n11_n01",
+   "from": "n11",
+   "to": "n01",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road B",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.024,
+     73.017
+    ],
+    [
+     19.018,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n11_n21",
+   "from": "n11",
+   "to": "n21",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road B",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.024,
+     73.017
+    ],
+    [
+     19.03,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n21_n11",
+   "from": "n21",
+   "to": "n11",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road B",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.03,
+     73.017
+    ],
+    [
+     19.024,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n21_n31",
+   "from": "n21",
+   "to": "n31",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road B",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.03,
+     73.017
+    ],
+    [
+     19.036,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n31_n21",
+   "from": "n31",
+   "to": "n21",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road B",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.036,
+     73.017
+    ],
+    [
+     19.03,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n31_n41",
+   "from": "n31",
+   "to": "n41",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road B",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.036,
+     73.017
+    ],
+    [
+     19.042,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n41_n31",
+   "from": "n41",
+   "to": "n31",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road B",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.042,
+     73.017
+    ],
+    [
+     19.036,
+     73.017
+    ]
+   ]
+  },
+  {
+   "id": "n02_n12",
+   "from": "n02",
+   "to": "n12",
+   "lanes": 2,
+   "speed": 13.89,
+   "name": "Demo Arterial North-South",
+   "road_class": "primary",
+   "geometry": [
+    [
+     19.018,
+     73.024
+    ],
+    [
+     19.024,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n12_n02",
+   "from": "n12",
+   "to": "n02",
+   "lanes": 2,
+   "speed": 13.89,
+   "name": "Demo Arterial North-South",
+   "road_class": "primary",
+   "geometry": [
+    [
+     19.024,
+     73.024
+    ],
+    [
+     19.018,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n12_n22",
+   "from": "n12",
+   "to": "n22",
+   "lanes": 2,
+   "speed": 13.89,
+   "name": "Demo Arterial North-South",
+   "road_class": "primary",
+   "geometry": [
+    [
+     19.024,
+     73.024
+    ],
+    [
+     19.03,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n22_n12",
+   "from": "n22",
+   "to": "n12",
+   "lanes": 2,
+   "speed": 13.89,
+   "name": "Demo Arterial North-South",
+   "road_class": "primary",
+   "geometry": [
+    [
+     19.03,
+     73.024
+    ],
+    [
+     19.024,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n22_n32",
+   "from": "n22",
+   "to": "n32",
+   "lanes": 2,
+   "speed": 13.89,
+   "name": "Demo Arterial North-South",
+   "road_class": "primary",
+   "geometry": [
+    [
+     19.03,
+     73.024
+    ],
+    [
+     19.036,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n32_n22",
+   "from": "n32",
+   "to": "n22",
+   "lanes": 2,
+   "speed": 13.89,
+   "name": "Demo Arterial North-South",
+   "road_class": "primary",
+   "geometry": [
+    [
+     19.036,
+     73.024
+    ],
+    [
+     19.03,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n32_n42",
+   "from": "n32",
+   "to": "n42",
+   "lanes": 2,
+   "speed": 13.89,
+   "name": "Demo Arterial North-South",
+   "road_class": "primary",
+   "geometry": [
+    [
+     19.036,
+     73.024
+    ],
+    [
+     19.042,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n42_n32",
+   "from": "n42",
+   "to": "n32",
+   "lanes": 2,
+   "speed": 13.89,
+   "name": "Demo Arterial North-South",
+   "road_class": "primary",
+   "geometry": [
+    [
+     19.042,
+     73.024
+    ],
+    [
+     19.036,
+     73.024
+    ]
+   ]
+  },
+  {
+   "id": "n03_n13",
+   "from": "n03",
+   "to": "n13",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road D",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.018,
+     73.031
+    ],
+    [
+     19.024,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n13_n03",
+   "from": "n13",
+   "to": "n03",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road D",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.024,
+     73.031
+    ],
+    [
+     19.018,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n13_n23",
+   "from": "n13",
+   "to": "n23",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road D",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.024,
+     73.031
+    ],
+    [
+     19.03,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n23_n13",
+   "from": "n23",
+   "to": "n13",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road D",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.03,
+     73.031
+    ],
+    [
+     19.024,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n23_n33",
+   "from": "n23",
+   "to": "n33",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road D",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.03,
+     73.031
+    ],
+    [
+     19.036,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n33_n23",
+   "from": "n33",
+   "to": "n23",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road D",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.036,
+     73.031
+    ],
+    [
+     19.03,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n33_n43",
+   "from": "n33",
+   "to": "n43",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road D",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.036,
+     73.031
+    ],
+    [
+     19.042,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n43_n33",
+   "from": "n43",
+   "to": "n33",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road D",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.042,
+     73.031
+    ],
+    [
+     19.036,
+     73.031
+    ]
+   ]
+  },
+  {
+   "id": "n04_n14",
+   "from": "n04",
+   "to": "n14",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road E",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.018,
+     73.038
+    ],
+    [
+     19.024,
+     73.038
+    ]
+   ]
+  },
+  {
+   "id": "n14_n04",
+   "from": "n14",
+   "to": "n04",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road E",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.024,
+     73.038
+    ],
+    [
+     19.018,
+     73.038
+    ]
+   ]
+  },
+  {
+   "id": "n14_n24",
+   "from": "n14",
+   "to": "n24",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road E",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.024,
+     73.038
+    ],
+    [
+     19.03,
+     73.038
+    ]
+   ]
+  },
+  {
+   "id": "n24_n14",
+   "from": "n24",
+   "to": "n14",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road E",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.03,
+     73.038
+    ],
+    [
+     19.024,
+     73.038
+    ]
+   ]
+  },
+  {
+   "id": "n24_n34",
+   "from": "n24",
+   "to": "n34",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road E",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.03,
+     73.038
+    ],
+    [
+     19.036,
+     73.038
+    ]
+   ]
+  },
+  {
+   "id": "n34_n24",
+   "from": "n34",
+   "to": "n24",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road E",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.036,
+     73.038
+    ],
+    [
+     19.03,
+     73.038
+    ]
+   ]
+  },
+  {
+   "id": "n34_n44",
+   "from": "n34",
+   "to": "n44",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road E",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.036,
+     73.038
+    ],
+    [
+     19.042,
+     73.038
+    ]
+   ]
+  },
+  {
+   "id": "n44_n34",
+   "from": "n44",
+   "to": "n34",
+   "lanes": 1,
+   "speed": 11.11,
+   "name": "Demo Cross Road E",
+   "road_class": "residential",
+   "geometry": [
+    [
+     19.042,
+     73.038
+    ],
+    [
+     19.036,
+     73.038
+    ]
+   ]
+  }
+ ],
+ "hospitals": [
+  {
+   "id": "H1",
+   "name": "Demo Hospital - North",
+   "lat": 19.042,
+   "lon": 73.031,
+   "node": "n43"
+  },
+  {
+   "id": "H2",
+   "name": "Demo Hospital - South-East",
+   "lat": 19.018,
+   "lon": 73.038,
+   "node": "n04"
+  }
+ ],
+ "ambulance_bases": [
+  {
+   "id": "A1",
+   "name": "Station West",
+   "node": "n20"
+  },
+  {
+   "id": "A2",
+   "name": "Station North-West",
+   "node": "n40"
+  },
+  {
+   "id": "A3",
+   "name": "Station East",
+   "node": "n24"
+  }
+ ],
+ "scenario": {
+  "experiment_base": "A1",
+  "experiment_pickup_node": "n23",
+  "experiment_hospital": "H2"
+ }
+}

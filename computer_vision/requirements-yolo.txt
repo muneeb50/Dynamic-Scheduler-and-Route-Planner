@@ -1,0 +1,7 @@
+# YOLO object detection (Ultralytics, PyTorch CPU build is fine). Installed by scripts/setup.* by default.
+# Weights (yolo11n.pt) are included in computer_vision/models/ and otherwise download on first use.
+ultralytics>=8.3
+# only needed to re-export ONNX for the OpenCV DNN detector (computer_vision/tools/export_onnx.py)
+# onnx>=1.16
+# reads "AMBULANCE" / "108" written on vehicles (offline OCR, ONNX models included in the package)
+rapidocr_onnxruntime>=1.2
